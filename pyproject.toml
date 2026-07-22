@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bride-cognitive-client"
+version = "0.1.0"
+description = "Python client for Bride Cognitive API — AIF surprise detection & emotion analysis as a service"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Gracestack", email = "kim@gracestack.se"}
+]
+keywords = ["ai", "cognitive", "surprise-detection", "emotion-analysis", "active-inference", "bride"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "httpx>=0.25",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+    "pytest-asyncio>=0.21",
+    "ruff>=0.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/cedendahlkim/bride-cognitive-client"
+Documentation = "https://github.com/cedendahlkim/bride-cognitive-client#readme"
+Repository = "https://github.com/cedendahlkim/bride-cognitive-client"
+Issues = "https://github.com/cedendahlkim/bride-cognitive-client/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
