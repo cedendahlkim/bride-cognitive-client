@@ -7,7 +7,7 @@ name = "bride-cognitive-client"
 version = "0.1.0"
 description = "Python client for Bride Cognitive API — AIF surprise detection & emotion analysis as a service"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
 authors = [
     {name = "Gracestack", email = "kim@gracestack.se"}
 ]

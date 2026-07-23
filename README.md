@@ -96,11 +96,13 @@ Check API health and Bride connectivity.
 
 ## Pricing
 
-| Plan | Price | Requests/day |
-|------|-------|--------------|
-| Free | 0 SEK | 50 |
-| Pro | 499 SEK/mo | 100 |
-| Enterprise | 1999 SEK/mo | 1000 |
+| Plan | Price | Requests/day | Subscribe |
+|------|-------|--------------|-----------|
+| Free | 0 SEK | 50 | — |
+| Pro | 499 SEK/mo | 100 | [Subscribe](https://buy.stripe.com/dRmdR82MJabtgh4aRS0sU1o) |
+| Enterprise | 1999 SEK/mo | 1000 | [Subscribe](https://buy.stripe.com/9B67sK0EB3N50i68JK0sU1p) |
+
+Start with the Free tier (50 requests/day, no API key required). Upgrade anytime via Stripe.
 
 ## Use Cases
 
